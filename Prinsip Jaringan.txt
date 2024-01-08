@@ -1,0 +1,38 @@
+Nama: Neisha Salsabila
+Kelas: TRPL 3A
+
+I. Jenis-Jenis Jaringan (Network Types)
+1. Berdasarkan Luas Geografis:
+LAN (Local Area Network): Jaringan lokal yang mencakup area terbatas seperti dalam satu gedung atau kampus.
+MAN (Metropolitan Area Network): Jaringan yang mencakup kota atau wilayah metropolitan.
+WAN (Wide Area Network): Jaringan yang mencakup area yang lebih besar, bahkan bisa mencakup negara atau benua.
+2. Berdasarkan Topologi:
+Bus Network: Semua perangkat terhubung ke satu saluran tunggal.
+Star Network: Semua perangkat terhubung ke pusat atau simpul sentral.
+Ring Network: Setiap perangkat terhubung dengan dua perangkat lainnya membentuk cincin.
+Mesh Network: Semua perangkat terhubung satu sama lain membentuk jaringan yang kompleks.
+3. Berdasarkan Fungsinya:
+Client-Server Network: Peran server untuk menyediakan layanan, dan klien untuk mengakses layanan tersebut.
+Peer-to-Peer Network: Setiap perangkat memiliki peran yang setara dan dapat berkomunikasi langsung satu sama lain.
+4. Berdasarkan Media Penghubung:
+Kabel (Wired) Network: Menggunakan kabel sebagai media penghubung.
+Wireless Network: Menggunakan gelombang radio atau inframerah sebagai media penghubung.
+5. Berdasarkan Penggunaannya:
+Internet: Jaringan global terbesar yang menghubungkan jutaan perangkat di seluruh dunia.
+Intranet: Jaringan internal suatu organisasi atau perusahaan.
+Extranet: Menghubungkan organisasi dengan mitra, pemasok, atau pelanggan secara aman.
+II. Prinsip-Prinsip Jaringan
+1. Encapsulation:
+Definisi: Proses menyembunyikan detail implementasi dari lapisan jaringan yang satu kepada lapisan lainnya.
+Manfaat: Meningkatkan modularitas, memfasilitasi perubahan tanpa memengaruhi lapisan lain, dan meningkatkan interoperabilitas.
+2. Layering:
+Definisi: Memisahkan fungsi jaringan menjadi lapisan-lapisan hierarkis, setiap lapisan berfokus pada tanggung jawab tertentu.
+Contoh: Model OSI (Open Systems Interconnection) dengan tujuh lapisan, seperti lapisan fisik, data link, dan transport.
+3. Routing:
+Definisi: Proses pemilihan jalur terbaik untuk mentransmis data dari satu titik ke titik lain dalam jaringan.
+Fungsi: Memastikan efisiensi pengiriman data dan menangani perubahan topologi jaringan.
+4. Kendali Congestion:
+Definisi: Manajemen lalu lintas jaringan untuk mencegah terjadinya kelebihan beban (congestion).
+Teknik: Penggunaan algoritma pengaturan lalu lintas, pembatasan laju, dan pencegahan tabrakan.
+Kesimpulan:
+Jaringan memiliki berbagai jenis yang dapat disesuaikan dengan kebutuhan, dan prinsip-prinsip seperti encapsulation, layering, routing, dan kendali congestion menjadi dasar utama dalam desain dan pengelolaan jaringan modern. Pemahaman mendalam terhadap jenis-jenis jaringan dan prinsip-prinsip tersebut penting untuk mengembangkan dan memelihara infrastruktur jaringan yang efisien dan andal.
