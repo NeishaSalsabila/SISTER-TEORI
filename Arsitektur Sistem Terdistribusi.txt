@@ -1,0 +1,33 @@
+Nama: Neisha Salsabila
+Kelas: TRPL 3A
+
+1. Pengertian Remote Procedure Calls (RPC):
+Definisi: Remote Procedure Call (RPC) adalah mekanisme yang memungkinkan program dijalankan di mesin yang berbeda untuk dipanggil seolah-olah itu berjalan di mesin lokal.
+Tujuan: RPC digunakan untuk memungkinkan komunikasi antar proses atau aplikasi di dalam sistem terdistribusi tanpa mengharuskan pengguna untuk mengelola secara langsung komunikasi jaringan.
+2. Cara Kerja Remote Procedure Calls:
+Panggilan Fungsi Jarak Jauh: Pengguna memanggil fungsi pada sistem remote seperti memanggil fungsi lokal.
+Proksi: Fungsi-fungsi dipanggil melalui proksi di mesin lokal, yang kemudian menerjemahkan panggilan tersebut ke dalam format yang dapat ditransmisikan melalui jaringan.
+Stub: Di mesin remote, terdapat stub yang bertanggung jawab untuk menerima panggilan dan meneruskannya ke fungsi yang sebenarnya.
+3. Keuntungan dan Keterbatasan RPC:
+Keuntungan: Memungkinkan distribusi aplikasi, meningkatkan modularitas, dan memisahkan implementasi antara klien dan server.
+Keterbatasan: Kinerja dapat terpengaruh oleh latensi jaringan, perlu manajemen kesalahan yang baik, dan kompleksitas implementasi.
+Materi: Arsitektur Sistem Terdistribusi
+
+1. Pengertian Arsitektur Sistem Terdistribusi:
+Definisi: Arsitektur sistem terdistribusi adalah desain atau struktur sistem yang memungkinkan komponen-komponennya berada di lokasi yang terpisah dan terhubung melalui jaringan komputer.
+Tujuan: Meningkatkan kinerja, keandalan, dan skalabilitas sistem dengan mendistribusikan beban kerja dan sumber daya.
+2. Jenis-Jenis Arsitektur Sistem Terdistribusi:
+Client-Server: Sistem terbagi menjadi dua bagian utama, yaitu klien yang meminta layanan dan server yang menyediakan layanan.
+P2P (Peer-to-Peer): Setiap komputer memiliki peran yang setara, dan sumber daya dapat digunakan secara bersamaan.
+Layered Architecture: Komponen sistem terdistribusi diatur dalam lapisan-lapisan untuk memudahkan pengembangan dan pemeliharaan.
+3. Keuntungan dan Tantangan Arsitektur Sistem Terdistribusi:
+Keuntungan: Peningkatan kinerja, skalabilitas, keandalan, dan efisiensi penggunaan sumber daya.
+Tantangan: Kompleksitas manajemen sumber daya, keamanan, dan masalah koordinasi antar komponen.
+Kesimpulan:
+Remote Procedure Calls (RPC) dan arsitektur sistem terdistribusi adalah konsep-konsep kunci dalam pengembangan sistem yang memanfaatkan distribusi sumber daya dan layanan. RPC memungkinkan pemanggilan fungsi di lokasi yang berbeda, sementara arsitektur sistem terdistribusi memberikan kerangka kerja untuk mendesain sistem yang terdistribusi secara efektif. Pemahaman kedua konsep ini menjadi penting dalam mengatasi kompleksitas dan tantangan dalam pengembangan sistem terdistribusi.
+
+
+
+
+
+
