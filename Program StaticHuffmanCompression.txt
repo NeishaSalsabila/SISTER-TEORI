@@ -1,0 +1,35 @@
+Nama: Neisha Salsabila
+Kelas: TRPL 3A
+
+Program Static Huffman Compression merupakan aplikasi yang menggunakan algoritma kompresi Huffman untuk mengurangi ukuran file. Algoritma kompresi Huffman bekerja dengan memberikan representasi biner yang lebih singkat untuk simbol-simbol yang muncul lebih sering dalam file, sementara simbol-simbol yang muncul lebih jarang mendapatkan representasi biner yang lebih panjang.
+
+Berikut adalah penjelasan umum tentang bagaimana program Static Huffman Compression dapat dirancang dan beroperasi:
+
+Membaca File Input:
+
+Program akan membaca file yang akan dikompresi (file teks, gambar, atau jenis file lainnya).
+Isi dari file akan dibaca dan dipecah menjadi simbol-simbol atau karakter-karakter.
+Membangun Pohon Huffman Statis:
+
+Program akan membangun pohon Huffman berdasarkan frekuensi kemunculan setiap simbol dalam file.
+Frekuensi kemunculan simbol-simbol akan digunakan untuk menentukan bagaimana pohon Huffman dibangun.
+Simbol-simbol yang muncul lebih sering akan memiliki representasi biner yang lebih pendek.
+Menghasilkan Tabel Kode Huffman:
+
+Berdasarkan pohon Huffman yang telah dibangun, program akan menghasilkan tabel kode Huffman.
+Tabel ini memetakan setiap simbol ke representasi binernya yang baru.
+Kompresi Data:
+
+Program akan membaca kembali file dan menggantikan setiap simbol dengan representasinya yang baru berdasarkan tabel kode Huffman.
+Data yang sudah dikompresi akan disimpan dalam file terkompresi.
+Menyimpan Informasi Tambahan:
+
+Program akan menyimpan informasi tambahan, seperti pohon Huffman atau tabel kode Huffman, yang diperlukan untuk dekompresi nantinya. Informasi ini biasanya disertakan dalam header file terkompresi.
+Menyimpan File Terkompresi:
+
+Hasil akhir dari proses kompresi adalah file terkompresi yang berisi data yang lebih ringan dan informasi yang diperlukan untuk dekompresi.
+Dekompresi:
+
+Program Static Huffman Decompression dapat digunakan untuk mengembalikan file ke bentuk aslinya.
+Program membaca file terkompresi, menggunakan informasi yang disimpan untuk membangun kembali pohon Huffman, dan kemudian mendekompresi data.
+Penting untuk dicatat bahwa algoritma kompresi Huffman statis melibatkan pembangunan pohon Huffman sebelum proses kompresi dimulai. Ini berbeda dengan algoritma Huffman dinamis, di mana pohon Huffman dibangun secara dinamis saat proses kompresi berlangsung. Program Static Huffman Compression umumnya lebih sederhana dan lebih cepat, tetapi tidak selalu memberikan tingkat kompresi yang optimal dibandingkan dengan algoritma Huffman dinamis.
